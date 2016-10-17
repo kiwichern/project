@@ -5,6 +5,6 @@ function todoApp(state = initialState, action) {
         visibilityFilter: action.filter
       })
     default:
-      return state
+      return test
   }
 }
